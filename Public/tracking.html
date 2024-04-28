@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courier Tracking</title>
+  <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+  <form class="tracking-form">
+    <div class="tracking-container">
+      <h2>Courier Tracking</h2>
+      <label>
+        <input type="radio" name="trackingType" id="reference" checked>
+        Reference Number
+      </label>
+      <input type="text" id="referenceNumber" placeholder="Enter Reference Number">
+
+      <label>
+        <input type="radio" name="trackingType" id="waybill">
+        Waybill Number
+      </label>
+      <input type="text" id="waybillNumber" placeholder="Enter Waybill Number">
+
+      <button type="button" id="trackBtn" class="color-effect">Track</button>
+    </div>
+  </form>
+  <script src="tracking.js"></script>
+</body>
+</html>
